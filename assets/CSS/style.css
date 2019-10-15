@@ -1,0 +1,36 @@
+
+*{
+  text-align: center;
+}
+.btn {
+  background-color: #ddd;
+  margin: 2px;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.box {
+  height:auto;
+  width:100px;
+  padding-left:400px;
+
+}
+.box img{
+   width: 110px;
+
+}
+
+
+.description {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 27px;}
+
+  .q-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
