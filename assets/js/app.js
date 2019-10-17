@@ -1,11 +1,13 @@
-$(function(){
-  $("#js-show-btn").on("click", function() {
-    $("#js-target-element").fadeIn(11);
+
+  //toggleメニュー
+  $(".js-toggle").on("click", function() {
+    $(this).toggleClass("on");
+    $(this)
+      .siblings()
+      .slideToggle();
   });
 
-   $("#js-hide-btn").on("click", function() {
-     $("#js-target-element").fadeOut(11);
-   });
-
-
- });
+  //ハンバーガーメニュー
+  $(".js-hamburger").on("click", function() {
+    $(this).toggleClass("on");
+  });
